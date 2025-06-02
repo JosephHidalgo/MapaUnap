@@ -1,0 +1,2586 @@
+{
+  "nodes": [
+    {
+      "id": "0",
+      "latitude": -15.827585,
+      "longitude": -70.0165,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "1",
+      "latitude": -15.826797,
+      "longitude": -70.016888,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "2",
+      "latitude": -15.826559,
+      "longitude": -70.017162,
+      "is_school": true,
+      "school_name": "Educación"
+    },
+    {
+      "id": "3",
+      "latitude": -15.826372,
+      "longitude": -70.016825,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "4",
+      "latitude": -15.82653,
+      "longitude": -70.015863,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "5",
+      "latitude": -15.826303,
+      "longitude": -70.017152,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "6",
+      "latitude": -15.826054,
+      "longitude": -70.01675,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "7",
+      "latitude": -15.826001,
+      "longitude": -70.017009,
+      "is_school": true,
+      "school_name": "Medicina Humana"
+    },
+    {
+      "id": "8",
+      "latitude": -15.825973,
+      "longitude": -70.017114,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "9",
+      "latitude": -15.825938,
+      "longitude": -70.017301,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "10",
+      "latitude": -15.825889,
+      "longitude": -70.017434,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "11",
+      "latitude": -15.825561,
+      "longitude": -70.017377,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "12",
+      "latitude": -15.825228,
+      "longitude": -70.017063,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "13",
+      "latitude": -15.825566,
+      "longitude": -70.017225,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "14",
+      "latitude": -15.825603,
+      "longitude": -70.01665,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "15",
+      "latitude": -15.825547,
+      "longitude": -70.016927,
+      "is_school": true,
+      "school_name": "Enfermería"
+    },
+    {
+      "id": "16",
+      "latitude": -15.825209,
+      "longitude": -70.01655,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "17",
+      "latitude": -15.825271,
+      "longitude": -70.016805,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "18",
+      "latitude": -15.825188,
+      "longitude": -70.017348,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "19",
+      "latitude": -15.825276,
+      "longitude": -70.01608,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "20",
+      "latitude": -15.824702,
+      "longitude": -70.016436,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "21",
+      "latitude": -15.824744,
+      "longitude": -70.016006,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "22",
+      "latitude": -15.825017,
+      "longitude": -70.016041,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "23",
+      "latitude": -15.824879,
+      "longitude": -70.016771,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "24",
+      "latitude": -15.825136,
+      "longitude": -70.01743,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "25",
+      "latitude": -15.825347,
+      "longitude": -70.017669,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "26",
+      "latitude": -15.825526,
+      "longitude": -70.017705,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "27",
+      "latitude": -15.825005,
+      "longitude": -70.017644,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "28",
+      "latitude": -15.825229,
+      "longitude": -70.017874,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "29",
+      "latitude": -15.824805,
+      "longitude": -70.017839,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "30",
+      "latitude": -15.825025,
+      "longitude": -70.018102,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "31",
+      "latitude": -15.824919,
+      "longitude": -70.017983,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "32",
+      "latitude": -15.824713,
+      "longitude": -70.018174,
+      "is_school": true,
+      "school_name": "Biología"
+    },
+    {
+      "id": "33",
+      "latitude": -15.824797,
+      "longitude": -70.017612,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "34",
+      "latitude": -15.824905,
+      "longitude": -70.017011,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "35",
+      "latitude": -15.824398,
+      "longitude": -70.017551,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "36",
+      "latitude": -15.823961,
+      "longitude": -70.017455,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "37",
+      "latitude": -15.824321,
+      "longitude": -70.017099,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "38",
+      "latitude": -15.824545,
+      "longitude": -70.016907,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "39",
+      "latitude": -15.824576,
+      "longitude": -70.017305,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "40",
+      "latitude": -15.824639,
+      "longitude": -70.017936,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "41",
+      "latitude": -15.824538,
+      "longitude": -70.017945,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "42",
+      "latitude": -15.824519,
+      "longitude": -70.017785,
+      "is_school": true,
+      "school_name": "Administración"
+    },
+    {
+      "id": "43",
+      "latitude": -15.824526,
+      "longitude": -70.018189,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "44",
+      "latitude": -15.824349,
+      "longitude": -70.017955,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "45",
+      "latitude": -15.824381,
+      "longitude": -70.01825,
+      "is_school": true,
+      "school_name": "Ingeniería Mecánica Eléctrica"
+    },
+    {
+      "id": "46",
+      "latitude": -15.824514,
+      "longitude": -70.018621,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "47",
+      "latitude": -15.824136,
+      "longitude": -70.018001,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "48",
+      "latitude": -15.824208,
+      "longitude": -70.018352,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "49",
+      "latitude": -15.82424,
+      "longitude": -70.018739,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "50",
+      "latitude": -15.824139,
+      "longitude": -70.017816,
+      "is_school": true,
+      "school_name": "Ingeniería Electrónica"
+    },
+    {
+      "id": "51",
+      "latitude": -15.823954,
+      "longitude": -70.018901,
+      "is_school": true,
+      "school_name": "Ciencias Físico Matemáticas"
+    },
+    {
+      "id": "52",
+      "latitude": -15.823992,
+      "longitude": -70.018638,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "53",
+      "latitude": -15.824064,
+      "longitude": -70.018363,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "54",
+      "latitude": -15.823809,
+      "longitude": -70.018659,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "55",
+      "latitude": -15.823867,
+      "longitude": -70.01931,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "56",
+      "latitude": -15.823787,
+      "longitude": -70.018912,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "57",
+      "latitude": -15.823543,
+      "longitude": -70.018946,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "58",
+      "latitude": -15.823554,
+      "longitude": -70.019241,
+      "is_school": true,
+      "school_name": "Ingeniería Geológica y Metalurgica"
+    },
+    {
+      "id": "59",
+      "latitude": -15.823811,
+      "longitude": -70.019147,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "60",
+      "latitude": -15.823456,
+      "longitude": -70.018432,
+      "is_school": true,
+      "school_name": "Ingeniería Agrícola"
+    },
+    {
+      "id": "61",
+      "latitude": -15.823499,
+      "longitude": -70.018516,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "62",
+      "latitude": -15.823698,
+      "longitude": -70.018488,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "63",
+      "latitude": -15.823682,
+      "longitude": -70.018252,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "64",
+      "latitude": -15.823423,
+      "longitude": -70.018293,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "65",
+      "latitude": -15.823701,
+      "longitude": -70.01784,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "66",
+      "latitude": -15.823311,
+      "longitude": -70.018598,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "67",
+      "latitude": -15.823203,
+      "longitude": -70.018274,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "68",
+      "latitude": -15.823231,
+      "longitude": -70.01861,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "69",
+      "latitude": -15.823304,
+      "longitude": -70.019082,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "70",
+      "latitude": -15.822997,
+      "longitude": -70.019104,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "71",
+      "latitude": -15.823006,
+      "longitude": -70.019204,
+      "is_school": true,
+      "school_name": "Agroindustrial"
+    },
+    {
+      "id": "72",
+      "latitude": -15.823227,
+      "longitude": -70.018859,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "73",
+      "latitude": -15.823018,
+      "longitude": -70.01888,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "74",
+      "latitude": -15.822943,
+      "longitude": -70.018787,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "75",
+      "latitude": -15.822765,
+      "longitude": -70.018695,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "76",
+      "latitude": -15.822796,
+      "longitude": -70.019083,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "77",
+      "latitude": -15.822508,
+      "longitude": -70.018721,
+      "is_school": true,
+      "school_name": "Medicina Veterinaria y Zootecnia"
+    },
+    {
+      "id": "78",
+      "latitude": -15.822866,
+      "longitude": -70.01832,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "79",
+      "latitude": -15.822901,
+      "longitude": -70.018507,
+      "is_school": true,
+      "school_name": "Ingeniería Química"
+    },
+    {
+      "id": "80",
+      "latitude": -15.823507,
+      "longitude": -70.018057,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "81",
+      "latitude": -15.823726,
+      "longitude": -70.017635,
+      "is_school": true,
+      "school_name": "Ingeniería de Sistemas"
+    },
+    {
+      "id": "82",
+      "latitude": -15.823339,
+      "longitude": -70.017799,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "83",
+      "latitude": -15.823656,
+      "longitude": -70.017319,
+      "is_school": true,
+      "school_name": "Ingeniería Estadística e Informática"
+    },
+    {
+      "id": "84",
+      "latitude": -15.824023,
+      "longitude": -70.017178,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "85",
+      "latitude": -15.823191,
+      "longitude": -70.016974,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "86",
+      "latitude": -15.8241,
+      "longitude": -70.016813,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "87",
+      "latitude": -15.82413,
+      "longitude": -70.016621,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "88",
+      "latitude": -15.824611,
+      "longitude": -70.016502,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "89",
+      "latitude": -15.823869,
+      "longitude": -70.016385,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "90",
+      "latitude": -15.823964,
+      "longitude": -70.015857,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "91",
+      "latitude": -15.823713,
+      "longitude": -70.015775,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "92",
+      "latitude": -15.824737,
+      "longitude": -70.015653,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "93",
+      "latitude": -15.823663,
+      "longitude": -70.01606,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "94",
+      "latitude": -15.823589,
+      "longitude": -70.015737,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "95",
+      "latitude": -15.823488,
+      "longitude": -70.016682,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "96",
+      "latitude": -15.823638,
+      "longitude": -70.016653,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "97",
+      "latitude": -15.823529,
+      "longitude": -70.017118,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "98",
+      "latitude": -15.823622,
+      "longitude": -70.016907,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "99",
+      "latitude": -15.823524,
+      "longitude": -70.017351,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "100",
+      "latitude": -15.823347,
+      "longitude": -70.017303,
+      "is_school": true,
+      "school_name": "Ciencias Contables"
+    },
+    {
+      "id": "101",
+      "latitude": -15.823531,
+      "longitude": -70.017713,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "102",
+      "latitude": -15.823303,
+      "longitude": -70.017527,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "103",
+      "latitude": -15.823185,
+      "longitude": -70.017341,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "104",
+      "latitude": -15.822846,
+      "longitude": -70.016561,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "105",
+      "latitude": -15.822838,
+      "longitude": -70.016177,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "106",
+      "latitude": -15.822886,
+      "longitude": -70.01581,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "107",
+      "latitude": -15.822683,
+      "longitude": -70.015792,
+      "is_school": true,
+      "school_name": "Turismo"
+    },
+    {
+      "id": "108",
+      "latitude": -15.823064,
+      "longitude": -70.014905,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "109",
+      "latitude": -15.8229,
+      "longitude": -70.014895,
+      "is_school": true,
+      "school_name": "Ingeniería de Minas"
+    },
+    {
+      "id": "110",
+      "latitude": -15.822918,
+      "longitude": -70.015618,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "111",
+      "latitude": -15.822477,
+      "longitude": -70.015523,
+      "is_school": true,
+      "school_name": "Antropología"
+    },
+    {
+      "id": "112",
+      "latitude": -15.823338,
+      "longitude": -70.014218,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "113",
+      "latitude": -15.823487,
+      "longitude": -70.014224,
+      "is_school": true,
+      "school_name": "Ingeniería Económica"
+    },
+    {
+      "id": "114",
+      "latitude": -15.823647,
+      "longitude": -70.015165,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "115",
+      "latitude": -15.823386,
+      "longitude": -70.015139,
+      "is_school": true,
+      "school_name": "Ciencias de la Comunicación Social"
+    },
+    {
+      "id": "116",
+      "latitude": -15.823546,
+      "longitude": -70.015597,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "117",
+      "latitude": -15.82329,
+      "longitude": -70.015574,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "118",
+      "latitude": -15.823498,
+      "longitude": -70.015858,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "119",
+      "latitude": -15.823238,
+      "longitude": -70.015809,
+      "is_school": true,
+      "school_name": "Trabajo Social"
+    },
+    {
+      "id": "120",
+      "latitude": -15.823456,
+      "longitude": -70.016123,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "121",
+      "latitude": -15.823203,
+      "longitude": -70.016058,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "122",
+      "latitude": -15.823419,
+      "longitude": -70.016344,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "123",
+      "latitude": -15.823157,
+      "longitude": -70.016301,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "124",
+      "latitude": -15.823405,
+      "longitude": -70.016588,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "125",
+      "latitude": -15.823209,
+      "longitude": -70.016587,
+      "is_school": true,
+      "school_name": "Arte"
+    },
+    {
+      "id": "126",
+      "latitude": -15.823431,
+      "longitude": -70.01689,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "127",
+      "latitude": -15.823206,
+      "longitude": -70.016851,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "128",
+      "latitude": -15.824895,
+      "longitude": -70.014599,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "129",
+      "latitude": -15.824936,
+      "longitude": -70.014312,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "130",
+      "latitude": -15.824791,
+      "longitude": -70.015302,
+      "is_school": true,
+      "school_name": "Arquitectura"
+    },
+    {
+      "id": "131",
+      "latitude": -15.82529,
+      "longitude": -70.013139,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "132",
+      "latitude": -15.8255,
+      "longitude": -70.013123,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "133",
+      "latitude": -15.824779,
+      "longitude": -70.012891,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "134",
+      "latitude": -15.824748,
+      "longitude": -70.012723,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "135",
+      "latitude": -15.82523,
+      "longitude": -70.012513,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "136",
+      "latitude": -15.824995,
+      "longitude": -70.011998,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "137",
+      "latitude": -15.82455,
+      "longitude": -70.012148,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "138",
+      "latitude": -15.824438,
+      "longitude": -70.01306,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "139",
+      "latitude": -15.824356,
+      "longitude": -70.012855,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "140",
+      "latitude": -15.824162,
+      "longitude": -70.013108,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "141",
+      "latitude": -15.82409,
+      "longitude": -70.012964,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "142",
+      "latitude": -15.825424,
+      "longitude": -70.013591,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "143",
+      "latitude": -15.824746,
+      "longitude": -70.013978,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "144",
+      "latitude": -15.82466,
+      "longitude": -70.013707,
+      "is_school": true,
+      "school_name": "Topografía y Agrimensura"
+    },
+    {
+      "id": "145",
+      "latitude": -15.82467,
+      "longitude": -70.014215,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "146",
+      "latitude": -15.824604,
+      "longitude": -70.014529,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "147",
+      "latitude": -15.824559,
+      "longitude": -70.014833,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "148",
+      "latitude": -15.824465,
+      "longitude": -70.015562,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "149",
+      "latitude": -15.823926,
+      "longitude": -70.01495,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "150",
+      "latitude": -15.824307,
+      "longitude": -70.014557,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "151",
+      "latitude": -15.824353,
+      "longitude": -70.014368,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "152",
+      "latitude": -15.824389,
+      "longitude": -70.014161,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "153",
+      "latitude": -15.824007,
+      "longitude": -70.01332,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "154",
+      "latitude": -15.823568,
+      "longitude": -70.013836,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "155",
+      "latitude": -15.823797,
+      "longitude": -70.013539,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "156",
+      "latitude": -15.824451,
+      "longitude": -70.013653,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "157",
+      "latitude": -15.824199,
+      "longitude": -70.013443,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "158",
+      "latitude": -15.82463,
+      "longitude": -70.013517,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "159",
+      "latitude": -15.824462,
+      "longitude": -70.01348,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "160",
+      "latitude": -15.824442,
+      "longitude": -70.013825,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "161",
+      "latitude": -15.824405,
+      "longitude": -70.013977,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "162",
+      "latitude": -15.823744,
+      "longitude": -70.01473,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "163",
+      "latitude": -15.8235,
+      "longitude": -70.01454,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "164",
+      "latitude": -15.823687,
+      "longitude": -70.014479,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "165",
+      "latitude": -15.823718,
+      "longitude": -70.014276,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "166",
+      "latitude": -15.82377,
+      "longitude": -70.014091,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "167",
+      "latitude": -15.823231,
+      "longitude": -70.014399,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "168",
+      "latitude": -15.823334,
+      "longitude": -70.014501,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "169",
+      "latitude": -15.824637,
+      "longitude": -70.013232,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "170",
+      "latitude": -15.824544,
+      "longitude": -70.012794,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "171",
+      "latitude": -15.825406,
+      "longitude": -70.012067,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "172",
+      "latitude": -15.825427,
+      "longitude": -70.012783,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "173",
+      "latitude": -15.825726,
+      "longitude": -70.012625,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "174",
+      "latitude": -15.825424,
+      "longitude": -70.01471,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "175",
+      "latitude": -15.825509,
+      "longitude": -70.014361,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "176",
+      "latitude": -15.825269,
+      "longitude": -70.015274,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "177",
+      "latitude": -15.825024,
+      "longitude": -70.015067,
+      "is_school": true,
+      "school_name": "Educación Física"
+    },
+    {
+      "id": "178",
+      "latitude": -15.824423,
+      "longitude": -70.014812,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "179",
+      "latitude": -15.824482,
+      "longitude": -70.014503,
+      "is_school": true,
+      "school_name": "Sociología"
+    },
+    {
+      "id": "180",
+      "latitude": -15.824526,
+      "longitude": -70.014157,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "181",
+      "latitude": -15.823772,
+      "longitude": -70.015467,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "182",
+      "latitude": -15.823757,
+      "longitude": -70.015182,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "183",
+      "latitude": -15.824188,
+      "longitude": -70.015719,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "184",
+      "latitude": -15.825587,
+      "longitude": -70.0142,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "185",
+      "latitude": -15.825669,
+      "longitude": -70.013626,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "186",
+      "latitude": -15.825987,
+      "longitude": -70.013656,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "187",
+      "latitude": -15.826402,
+      "longitude": -70.013766,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "188",
+      "latitude": -15.826513,
+      "longitude": -70.01371,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "189",
+      "latitude": -15.82587,
+      "longitude": -70.012567,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "190",
+      "latitude": -15.823822,
+      "longitude": -70.016749,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "191",
+      "latitude": -15.82385,
+      "longitude": -70.017899,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "192",
+      "latitude": -15.823886,
+      "longitude": -70.018243,
+      "is_school": true,
+      "school_name": "Ingeniería Civil"
+    },
+    {
+      "id": "193",
+      "latitude": -15.821904,
+      "longitude": -70.018788,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "194",
+      "latitude": -15.821798,
+      "longitude": -70.019219,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "195",
+      "latitude": -15.825581,
+      "longitude": -70.017065,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "196",
+      "latitude": -15.826038,
+      "longitude": -70.017403,
+      "is_school": true,
+      "school_name": "Odontología"
+    },
+    {
+      "id": "197",
+      "latitude": -15.825434,
+      "longitude": -70.017259,
+      "is_school": true,
+      "school_name": "Nutrición Humana"
+    },
+    {
+      "id": "198",
+      "latitude": -15.82561,
+      "longitude": -70.017529,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "199",
+      "latitude": -15.825378,
+      "longitude": -70.014912,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "200",
+      "latitude": -15.826606,
+      "longitude": -70.01514,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "201",
+      "latitude": -15.822,
+      "longitude": -70.01728,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "202",
+      "latitude": -15.822616,
+      "longitude": -70.016159,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "203",
+      "latitude": -15.822751,
+      "longitude": -70.015242,
+      "is_school": false,
+      "school_name": null
+    },
+    {
+      "id": "204",
+      "latitude": -15.822947,
+      "longitude": -70.015271,
+      "is_school": false,
+      "school_name": null
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "weight": 96.96
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "weight": 39.49
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "weight": 47.74
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "weight": 104.40
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "weight": 35.81
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "weight": 36.26
+    },
+    {
+      "source": 6,
+      "target": 7,
+      "weight": 28.33
+    },
+    {
+      "source": 7,
+      "target": 8,
+      "weight": 11.66
+    },
+    {
+      "source": 8,
+      "target": 9,
+      "weight": 20.38
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "weight": 15.24
+    },
+    {
+      "source": 10,
+      "target": 11,
+      "weight": 36.98
+    },
+    {
+      "source": 11,
+      "target": 13,
+      "weight": 16.27
+    },
+    {
+      "source": 6,
+      "target": 14,
+      "weight": 51.28
+    },
+    {
+      "source": 14,
+      "target": 15,
+      "weight": 30.28
+    },
+    {
+      "source": 14,
+      "target": 16,
+      "weight": 40.47
+    },
+    {
+      "source": 14,
+      "target": 17,
+      "weight": 28.14
+    },
+    {
+      "source": 16,
+      "target": 17,
+      "weight": 57.68
+    },
+    {
+      "source": 16,
+      "target": 20,
+      "weight": 50.83
+    },
+    {
+      "source": 16,
+      "target": 19,
+      "weight": 46.24
+    },
+    {
+      "source": 20,
+      "target": 21,
+      "weight": 30.59
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "weight": 12.34
+    },
+    {
+      "source": 20,
+      "target": 88,
+      "weight": 43.94
+    },
+    {
+      "source": 38,
+      "target": 88,
+      "weight": 41.55
+    },
+    {
+      "source": 34,
+      "target": 38,
+      "weight": 40.89
+    },
+    {
+      "source": 20,
+      "target": 23,
+      "weight": 58.82
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "weight": 10.51
+    },
+    {
+      "source": 18,
+      "target": 24,
+      "weight": 27.14
+    },
+    {
+      "source": 24,
+      "target": 27,
+      "weight": 34.70
+    },
+    {
+      "source": 24,
+      "target": 25,
+      "weight": 20.27
+    },
+    {
+      "source": 25,
+      "target": 26,
+      "weight": 35.01
+    },
+    {
+      "source": 27,
+      "target": 28,
+      "weight": 47.30
+    },
+    {
+      "source": 27,
+      "target": 29,
+      "weight": 19.51
+    },
+    {
+      "source": 29,
+      "target": 31,
+      "weight": 17.35
+    },
+    {
+      "source": 31,
+      "target": 30,
+      "weight": 20.27
+    },
+    {
+      "source": 25,
+      "target": 26,
+      "weight": 23.38
+    },
+    {
+      "source": 27,
+      "target": 33,
+      "weight": 65.41
+    },
+    {
+      "source": 33,
+      "target": 34,
+      "weight": 35.91
+    },
+    {
+      "source": 37,
+      "target": 39,
+      "weight": 32.92
+    },
+    {
+      "source": 39,
+      "target": 35,
+      "weight": 41.02
+    },
+    {
+      "source": 33,
+      "target": 39,
+      "weight": 21.18
+    },
+    {
+      "source": 29,
+      "target": 40,
+      "weight": 26.76
+    },
+    {
+      "source": 40,
+      "target": 32,
+      "weight": 17.25
+    },
+    {
+      "source": 41,
+      "target": 42,
+      "weight": 11.27
+    },
+    {
+      "source": 40,
+      "target": 41,
+      "weight": 26.14
+    },
+    {
+      "source": 41,
+      "target": 43,
+      "weight": 21.04
+    },
+    {
+      "source": 41,
+      "target": 44,
+      "weight": 31.76
+    },
+    {
+      "source": 44,
+      "target": 45,
+      "weight": 24.19
+    },
+    {
+      "source": 44,
+      "target": 47,
+      "weight": 19.79
+    },
+    {
+      "source": 47,
+      "target": 50,
+      "weight": 43.56
+    },
+    {
+      "source": 35,
+      "target": 44,
+      "weight": 49.67
+    },
+    {
+      "source": 35,
+      "target": 36,
+      "weight": 30.43
+    },
+    {
+      "source": 36,
+      "target": 84,
+      "weight": 39.98
+    },
+    {
+      "source": 84,
+      "target": 86,
+      "weight": 50.49
+    },
+    {
+      "source": 38,
+      "target": 86,
+      "weight": 20.81
+    },
+    {
+      "source": 86,
+      "target": 87,
+      "weight": 51.34
+    },
+    {
+      "source": 47,
+      "target": 65,
+      "weight": 44.13
+    },
+    {
+      "source": 65,
+      "target": 63,
+      "weight": 20.27
+    },
+    {
+      "source": 25,
+      "target": 26,
+      "weight": 57.18
+    },
+    {
+      "source": 63,
+      "target": 47,
+      "weight": 25.31
+    },
+    {
+      "source": 62,
+      "target": 63,
+      "weight": 29.13
+    },
+    {
+      "source": 63,
+      "target": 64,
+      "weight": 24.55
+    },
+    {
+      "source": 64,
+      "target": 67,
+      "weight": 36.08
+    },
+    {
+      "source": 67,
+      "target": 68,
+      "weight": 31.69
+    },
+    {
+      "source": 65,
+      "target": 80,
+      "weight": 23.28
+    },
+    {
+      "source": 65,
+      "target": 101,
+      "weight": 23.25
+    },
+    {
+      "source": 101,
+      "target": 82,
+      "weight": 22.11
+    },
+    {
+      "source": 65,
+      "target": 81,
+      "weight": 46.43
+    },
+    {
+      "source": 62,
+      "target": 56,
+      "weight": 25.28
+    },
+    {
+      "source": 56,
+      "target": 59,
+      "weight": 18.52
+    },
+    {
+      "source": 59,
+      "target": 55,
+      "weight": 18.61
+    },
+    {
+      "source": 56,
+      "target": 51,
+      "weight": 38.39
+    },
+    {
+      "source": 47,
+      "target": 48,
+      "weight": 41.55
+    },
+    {
+      "source": 48,
+      "target": 49,
+      "weight": 29.62
+    },
+    {
+      "source": 49,
+      "target": 52,
+      "weight": 16.06
+    },
+    {
+      "source": 48,
+      "target": 53,
+      "weight": 20.47
+    },
+    {
+      "source": 52,
+      "target": 54,
+      "weight": 27.37
+    },
+    {
+      "source": 56,
+      "target": 57,
+      "weight": 31.58
+    },
+    {
+      "source": 57,
+      "target": 58,
+      "weight": 30.30
+    },
+    {
+      "source": 57,
+      "target": 69,
+      "weight": 22.33
+    },
+    {
+      "source": 62,
+      "target": 61,
+      "weight": 15.32
+    },
+    {
+      "source": 64,
+      "target": 60,
+      "weight": 26.64
+    },
+    {
+      "source": 68,
+      "target": 72,
+      "weight": 25.35
+    },
+    {
+      "source": 72,
+      "target": 69,
+      "weight": 34.22
+    },
+    {
+      "source": 69,
+      "target": 70,
+      "weight": 10.75
+    },
+    {
+      "source": 70,
+      "target": 71,
+      "weight": 22.46
+    },
+    {
+      "source": 70,
+      "target": 76,
+      "weight": 23.35
+    },
+    {
+      "source": 72,
+      "target": 73,
+      "weight": 37.79
+    },
+    {
+      "source": 67,
+      "target": 78,
+      "weight": 20.38
+    },
+    {
+      "source": 78,
+      "target": 79,
+      "weight": 38.74
+    },
+    {
+      "source": 101,
+      "target": 99,
+      "weight": 15.07
+    },
+    {
+      "source": 99,
+      "target": 83,
+      "weight": 32.23
+    },
+    {
+      "source": 101,
+      "target": 102,
+      "weight": 23.84
+    },
+    {
+      "source": 102,
+      "target": 103,
+      "weight": 20.34
+    },
+    {
+      "source": 99,
+      "target": 100,
+      "weight": 29.93
+    },
+    {
+      "source": 99,
+      "target": 97,
+      "weight": 26.72
+    },
+    {
+      "source": 97,
+      "target": 126,
+      "weight": 23.14
+    },
+    {
+      "source": 95,
+      "target": 126,
+      "weight": 25.36
+    },
+    {
+      "source": 126,
+      "target": 127,
+      "weight": 13.65
+    },
+    {
+      "source": 95,
+      "target": 124,
+      "weight": 21.79
+    },
+    {
+      "source": 124,
+      "target": 125,
+      "weight": 26.15
+    },
+    {
+      "source": 124,
+      "target": 122,
+      "weight": 24.00
+    },
+    {
+      "source": 122,
+      "target": 120,
+      "weight": 28.98
+    },
+    {
+      "source": 120,
+      "target": 121,
+      "weight": 29.49
+    },
+    {
+      "source": 122,
+      "target": 123,
+      "weight": 28.73
+    },
+    {
+      "source": 120,
+      "target": 118,
+      "weight": 29.38
+    },
+    {
+      "source": 118,
+      "target": 119,
+      "weight": 16.43
+    },
+    {
+      "source": 94,
+      "target": 118,
+      "weight": 15.72
+    },
+    {
+      "source": 94,
+      "target": 116,
+      "weight": 28.57
+    },
+    {
+      "source": 116,
+      "target": 117,
+      "weight": 41.09
+    },
+    {
+      "source": 104,
+      "target": 105,
+      "weight": 39.62
+    },
+    {
+      "source": 105,
+      "target": 106,
+      "weight": 20.85
+    },
+    {
+      "source": 106,
+      "target": 110,
+      "weight": 22.65
+    },
+    {
+      "source": 106,
+      "target": 107,
+      "weight": 18.27
+    },
+    {
+      "source": 108,
+      "target": 109,
+      "weight": 91.56
+    },
+    {
+      "source": 103,
+      "target": 104,
+      "weight": 83.45
+    },
+    {
+      "source": 88,
+      "target": 89,
+      "weight": 57.47
+    },
+    {
+      "source": 89,
+      "target": 90,
+      "weight": 39.90
+    },
+    {
+      "source": 90,
+      "target": 93,
+      "weight": 29.26
+    },
+    {
+      "source": 90,
+      "target": 91,
+      "weight": 14.37
+    },
+    {
+      "source": 94,
+      "target": 91,
+      "weight": 33.60
+    },
+    {
+      "source": 181,
+      "target": 91,
+      "weight": 47.56
+    },
+    {
+      "source": 116,
+      "target": 114,
+      "weight": 29.15
+    },
+    {
+      "source": 114,
+      "target": 115,
+      "weight": 16.58
+    },
+    {
+      "source": 112,
+      "target": 113,
+      "weight": 22.73
+    },
+    {
+      "source": 112,
+      "target": 167,
+      "weight": 48.20
+    },
+    {
+      "source": 112,
+      "target": 154,
+      "weight": 50.08
+    },
+    {
+      "source": 110,
+      "target": 111,
+      "weight": 36.34
+    },
+    {
+      "source": 12,
+      "target": 34,
+      "weight": 20.86
+    },
+    {
+      "source": 150,
+      "target": 151,
+      "weight": 22.50
+    },
+    {
+      "source": 151,
+      "target": 152,
+      "weight": 32.90
+    },
+    {
+      "source": 146,
+      "target": 147,
+      "weight": 34.38
+    },
+    {
+      "source": 145,
+      "target": 146,
+      "weight": 38.62
+    },
+    {
+      "source": 114,
+      "target": 149,
+      "weight": 86.01
+    },
+    {
+      "source": 143,
+      "target": 142,
+      "weight": 30.53
+    },
+    {
+      "source": 143,
+      "target": 144,
+      "weight": 26.73
+    },
+    {
+      "source": 145,
+      "target": 143,
+      "weight": 50.77
+    },
+    {
+      "source": 142,
+      "target": 132,
+      "weight": 23.41
+    },
+    {
+      "source": 131,
+      "target": 132,
+      "weight": 58.11
+    },
+    {
+      "source": 134,
+      "target": 135,
+      "weight": 18.30
+    },
+    {
+      "source": 133,
+      "target": 134,
+      "weight": 45.82
+    },
+    {
+      "source": 134,
+      "target": 139,
+      "weight": 23.75
+    },
+    {
+      "source": 138,
+      "target": 139,
+      "weight": 31.79
+    },
+    {
+      "source": 139,
+      "target": 141,
+      "weight": 17.36
+    },
+    {
+      "source": 140,
+      "target": 141,
+      "weight": 60.98
+    },
+    {
+      "source": 135,
+      "target": 136,
+      "weight": 52.02
+    },
+    {
+      "source": 136,
+      "target": 137,
+      "weight": 78.69
+    },
+    {
+      "source": 147,
+      "target": 148,
+      "weight": 31.77
+    },
+    {
+      "source": 148,
+      "target": 92,
+      "weight": 38.03
+    },
+    {
+      "source": 92,
+      "target": 130,
+      "weight": 37.77
+    },
+    {
+      "source": 21,
+      "target": 92,
+      "weight": 69.44
+    },
+    {
+      "source": 150,
+      "target": 164,
+      "weight": 71.30
+    },
+    {
+      "source": 151,
+      "target": 165,
+      "weight": 69.24
+    },
+    {
+      "source": 152,
+      "target": 166,
+      "weight": 21.99
+    },
+    {
+      "source": 164,
+      "target": 165,
+      "weight": 20.62
+    },
+    {
+      "source": 165,
+      "target": 166,
+      "weight": 47.77
+    },
+    {
+      "source": 114,
+      "target": 162,
+      "weight": 27.59
+    },
+    {
+      "source": 162,
+      "target": 164,
+      "weight": 60.01
+    },
+    {
+      "source": 128,
+      "target": 174,
+      "weight": 38.51
+    },
+    {
+      "source": 174,
+      "target": 175,
+      "weight": 63.93
+    },
+    {
+      "source": 175,
+      "target": 129,
+      "weight": 19.28
+    },
+    {
+      "source": 175,
+      "target": 184,
+      "weight": 35.11
+    },
+    {
+      "source": 176,
+      "target": 177,
+      "weight": 62.75
+    },
+    {
+      "source": 174,
+      "target": 176,
+      "weight": 71.71
+    },
+    {
+      "source": 176,
+      "target": 92,
+      "weight": 78.69
+    },
+    {
+      "source": 147,
+      "target": 148,
+      "weight": 13.85
+    },
+    {
+      "source": 146,
+      "target": 179,
+      "weight": 17.17
+    },
+    {
+      "source": 145,
+      "target": 180,
+      "weight": 77.73
+    },
+    {
+      "source": 148,
+      "target": 181,
+      "weight": 30.54
+    },
+    {
+      "source": 181,
+      "target": 182,
+      "weight": 12.36
+    },
+    {
+      "source": 182,
+      "target": 114,
+      "weight": 28.95
+    },
+    {
+      "source": 90,
+      "target": 183,
+      "weight": 88.18
+    },
+    {
+      "source": 21,
+      "target": 90,
+      "weight": 101.83
+    },
+    {
+      "source": 184,
+      "target": 187,
+      "weight": 13.72
+    },
+    {
+      "source": 187,
+      "target": 188,
+      "weight": 47.63
+    },
+    {
+      "source": 187,
+      "target": 186,
+      "weight": 35.51
+    },
+    {
+      "source": 186,
+      "target": 185,
+      "weight": 141.25
+    },
+    {
+      "source": 187,
+      "target": 189,
+      "weight": 17.17
+    },
+    {
+      "source": 189,
+      "target": 173,
+      "weight": 36.25
+    },
+    {
+      "source": 172,
+      "target": 135,
+      "weight": 37.27
+    },
+    {
+      "source": 132,
+      "target": 172,
+      "weight": 69.50
+    },
+    {
+      "source": 173,
+      "target": 171,
+      "weight": 47.99
+    },
+    {
+      "source": 169,
+      "target": 170,
+      "weight": 32.90
+    },
+    {
+      "source": 159,
+      "target": 169,
+      "weight": 18.55
+    },
+    {
+      "source": 156,
+      "target": 159,
+      "weight": 18.43
+    },
+    {
+      "source": 160,
+      "target": 156,
+      "weight": 16.77
+    },
+    {
+      "source": 161,
+      "target": 160,
+      "weight": 19.76
+    },
+    {
+      "source": 152,
+      "target": 161,
+      "weight": 73.74
+    },
+    {
+      "source": 156,
+      "target": 155,
+      "weight": 33.08
+    },
+    {
+      "source": 155,
+      "target": 153,
+      "weight": 40.72
+    },
+    {
+      "source": 155,
+      "target": 154,
+      "weight": 48.21
+    },
+    {
+      "source": 112,
+      "target": 154,
+      "weight": 39.19
+    },
+    {
+      "source": 153,
+      "target": 141,
+      "weight": 57.23
+    },
+    {
+      "source": 167,
+      "target": 108,
+      "weight": 37.30
+    },
+    {
+      "source": 172,
+      "target": 173,
+      "weight": 25.08
+    },
+    {
+      "source": 153,
+      "target": 157,
+      "weight": 15.82
+    },
+    {
+      "source": 167,
+      "target": 168,
+      "weight": 18.92
+    },
+    {
+      "source": 168,
+      "target": 163,
+      "weight": 58.52
+    },
+    {
+      "source": 78,
+      "target": 77,
+      "weight": 28.71
+    },
+    {
+      "source": 77,
+      "target": 75,
+      "weight": 12.98
+    },
+    {
+      "source": 73,
+      "target": 74,
+      "weight": 36.90
+    },
+    {
+      "source": 36,
+      "target": 83,
+      "weight": 16.97
+    },
+    {
+      "source": 95,
+      "target": 96,
+      "weight": 15.58
+    },
+    {
+      "source": 9,
+      "target": 196,
+      "weight": 17.15
+    },
+    {
+      "source": 11,
+      "target": 198,
+      "weight": 43.90
+    },
+    {
+      "source": 8,
+      "target": 195,
+      "weight": 39.25
+    },
+    {
+      "source": 13,
+      "target": 195,
+      "weight": 50.76
+    },
+    {
+      "source": 12,
+      "target": 195,
+      "weight": 15.12
+    },
+    {
+      "source": 18,
+      "target": 198,
+      "weight": 46.23
+    },
+    {
+      "source": 13,
+      "target": 197,
+      "weight": 22.70
+    },
+    {
+      "source": 43,
+      "target": 46,
+      "weight": 118.11
+    },
+    {
+      "source": 63,
+      "target": 192,
+      "weight": 47.59
+    },
+    {
+      "source": 78,
+      "target": 193,
+      "weight": 32.98
+    },
+    {
+      "source": 193,
+      "target": 194,
+      "weight": 31.66
+    },
+    {
+      "source": 49,
+      "target": 46,
+      "weight": 22.89
+    },
+    {
+      "source": 86,
+      "target": 190,
+      "weight": 27.93
+    },
+    {
+      "source": 190,
+      "target": 96,
+      "weight": 49.08
+    },
+    {
+      "source": 190,
+      "target": 98,
+      "weight": 44.84
+    },
+    {
+      "source": 36,
+      "target": 191,
+      "weight": 147.15
+    },
+    {
+      "source": 33,
+      "target": 35,
+      "weight": 24.76
+    },
+    {
+      "source": 78,
+      "target": 201,
+      "weight": 37.26
+    },
+    {
+      "source": 105,
+      "target": 202,
+      "weight": 41.26
+    },
+    {
+      "source": 110,
+      "target": 204,
+      "weight": 22.01
+    },
+    {
+      "source": 204,
+      "target": 108,
+      "weight": 19.10
+    },
+    {
+      "source": 203,
+      "target": 204,
+      "weight": 138.70
+    },
+    {
+      "source": 159,
+      "target": 158,
+      "weight": 28.16
+    },
+    {
+      "source": 199,
+      "target": 200,
+      "weight": 15.29
+    },
+    {
+      "source": 126,
+      "target": 85,
+      "weight": 27.81
+    },
+    {
+      "source": 147,
+      "target": 178,
+      "weight": 28.46
+    },
+    {
+      "source": 68,
+      "target": 66,
+      "weight": 24.56
+    }
+  ]
+}
