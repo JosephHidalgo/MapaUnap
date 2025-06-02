@@ -67,6 +67,33 @@ class GraphVisualizer(FigureCanvas):
     def highlight_path(self, path_ids):
         self.draw_base_graph()
         
+        if not path_ids:
+            return
+        
+        # Calcular los límites del área que contiene la ruta
+        min_lon = float('inf')
+        max_lon = -float('inf')
+        min_lat = float('inf')
+        max_lat = -float('inf')
+        
+        # Primero encontrar todos los nodos en el camino
+        path_nodes = [self.nodes[node_id] for node_id in path_ids]
+        
+        # Calcular los límites
+        for node in path_nodes:
+            lon, lat = node['longitude'], node['latitude']
+            if lon < min_lon: min_lon = lon
+            if lon > max_lon: max_lon = lon
+            if lat < min_lat: min_lat = lat
+            if lat > max_lat: max_lat = lat
+        
+        # Añadir un margen alrededor de la ruta
+        margin = 0.002  # Puedes ajustar este valor según necesites
+        min_lon -= margin
+        max_lon += margin
+        min_lat -= margin
+        max_lat += margin
+        
         # Resaltar nodos y aristas del camino
         for i in range(len(path_ids)-1):
             start = path_ids[i]
@@ -86,21 +113,12 @@ class GraphVisualizer(FigureCanvas):
                 [start_node['latitude'], end_node['latitude']],
                 'r-', linewidth=2, alpha=0.8  # Rojo intenso
             )
-            
-            """ # Mostrar peso (opcional)
-            for edge in self.edges:
-                if (edge['source'] == start and edge['target'] == end) or (edge['source'] == end and edge['target'] == start):
-                    mid_x = (start_node['longitude'] + end_node['longitude'])/2
-                    mid_y = (start_node['latitude'] + end_node['latitude'])/2
-                    self.ax.text(mid_x, mid_y, f"{edge['weight']:.1f}", 
-                        fontsize=9, color='darkred', ha='center', va='center',
-                        bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                    break """
-
-        # Configuración final
+        
+        # Configuración final con zoom automático
+        self.ax.set_xlim(min_lon, max_lon)
+        self.ax.set_ylim(min_lat, max_lat)
         self.ax.axis('off')
         plt.tight_layout()
-        # Removido plt.show() que causaba problemas en aplicaciones Qt
         
         self.draw()
 
