@@ -87,7 +87,7 @@ class GraphVisualizer(FigureCanvas):
                 'r-', linewidth=2, alpha=0.8  # Rojo intenso
             )
             
-            # Mostrar peso (opcional)
+            """ # Mostrar peso (opcional)
             for edge in self.edges:
                 if (edge['source'] == start and edge['target'] == end) or (edge['source'] == end and edge['target'] == start):
                     mid_x = (start_node['longitude'] + end_node['longitude'])/2
@@ -95,7 +95,7 @@ class GraphVisualizer(FigureCanvas):
                     self.ax.text(mid_x, mid_y, f"{edge['weight']:.1f}", 
                         fontsize=9, color='darkred', ha='center', va='center',
                         bbox=dict(facecolor='white', alpha=0.7, edgecolor='none'))
-                    break
+                    break """
 
         # Configuración final
         self.ax.axis('off')

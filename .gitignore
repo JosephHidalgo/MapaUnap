@@ -1,0 +1,15 @@
+/docs
+__pycache__/
+/resources
+a_estrella.py
+conexiones.txt
+datos.txt
+grafo_mapa.png
+historial_prompts.txt
+mapsi.py
+posicion_nodos.txt
+prueba.py
+prueba2.py
+prueba3.py
+escuelas_profesionales.txt
+lector.py
