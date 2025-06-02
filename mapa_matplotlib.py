@@ -35,35 +35,43 @@ class GraphVisualizer(FigureCanvas):
     def draw_base_graph(self):
         self.ax.clear()
         
-        # Dibujar polígono
-        self.ax.plot(
-            [p[1] for p in self.coords_imagen] + [self.coords_imagen[0][1]],
-            [p[0] for p in self.coords_imagen] + [self.coords_imagen[0][0]], 
-            'r-', linewidth=2, alpha=0.7
-        )
+        # Configuración de estilo general
+        plt.style.use('seaborn')  # Fondo con degradado suave
+        self.fig.patch.set_facecolor('#eefeec')  # Color de fondo de la figura
+        self.ax.set_facecolor('#e8f4f8')  # Color de fondo del área del gráfico (azul claro)
         
-        # Dibujar nodos y aristas
-        for node in self.nodes:
-            lon, lat = node['longitude'], node['latitude']
-            if node['is_school']:
-                self.ax.plot(lon, lat, 'go', markersize=8, markeredgecolor='black', alpha=0.7)
-                #self.ax.text(lon, lat, node['school_name'], fontsize=8, color='black', ha='center', va='bottom')
-            else:
-                self.ax.plot(lon, lat, 'bo', markersize=4, alpha=0.3)
-
-        # 3. Graficar aristas normales (grises)
+        # Dibujar polígono con relleno
+        polygon_lons = [p[1] for p in self.coords_imagen] + [self.coords_imagen[0][1]]
+        polygon_lats = [p[0] for p in self.coords_imagen] + [self.coords_imagen[0][0]]
+        self.ax.fill(polygon_lons, polygon_lats, '#d4f1f9', alpha=0.5, edgecolor='#2a6f8b', linewidth=2)
+        
+        # Dibujar aristas normales (estilo mejorado)
         for edge in self.edges:
             source = self.nodes[edge['source']]
             target = self.nodes[edge['target']]
             self.ax.plot(
                 [source['longitude'], target['longitude']],
                 [source['latitude'], target['latitude']],
-                'gray', linewidth=1, alpha=0.3
+                color='#7f7f7f', linewidth=1.5, alpha=0.4, zorder=1
             )
+        
+        # Dibujar nodos (estilo mejorado)
+        for node in self.nodes:
+            lon, lat = node['longitude'], node['latitude']
+            if node['is_school']:
+                # Escuelas con icono más llamativo
+                self.ax.plot(lon, lat, 'P', color='#2ecc71', markersize=12, 
+                            markeredgecolor='#27ae60', alpha=0.9, zorder=3)
+                """ self.ax.text(lon, lat, node['school_name'], fontsize=9, 
+                            color='#2c3e50', ha='center', va='bottom', weight='bold') """
+            else:
+                # Nodos normales más discretos
+                self.ax.plot(lon, lat, 'o', color='#3498db', markersize=6, 
+                            alpha=0.6, zorder=2)
         
         self.ax.axis('off')
         self.draw()
-    
+
     def highlight_path(self, path_ids):
         self.draw_base_graph()
         
@@ -71,55 +79,65 @@ class GraphVisualizer(FigureCanvas):
             return
         
         # Calcular los límites del área que contiene la ruta
-        min_lon = float('inf')
-        max_lon = -float('inf')
-        min_lat = float('inf')
-        max_lat = -float('inf')
-        
-        # Primero encontrar todos los nodos en el camino
         path_nodes = [self.nodes[node_id] for node_id in path_ids]
+        lons = [node['longitude'] for node in path_nodes]
+        lats = [node['latitude'] for node in path_nodes]
         
-        # Calcular los límites
-        for node in path_nodes:
-            lon, lat = node['longitude'], node['latitude']
-            if lon < min_lon: min_lon = lon
-            if lon > max_lon: max_lon = lon
-            if lat < min_lat: min_lat = lat
-            if lat > max_lat: max_lat = lat
+        min_lon, max_lon = min(lons), max(lons)
+        min_lat, max_lat = min(lats), max(lats)
         
-        # Añadir un margen alrededor de la ruta
-        margin = 0.002  # Puedes ajustar este valor según necesites
+        # Margen dinámico basado en el tamaño del área
+        lon_range = max_lon - min_lon
+        lat_range = max_lat - min_lat
+        margin = max(lon_range, lat_range) * 0.3  # 30% de margen
+        
         min_lon -= margin
         max_lon += margin
         min_lat -= margin
         max_lat += margin
         
-        # Resaltar nodos y aristas del camino
+        # Resaltar la ruta con mejor estilo
         for i in range(len(path_ids)-1):
             start = path_ids[i]
             end = path_ids[i+1]
             
-            # Resaltar nodos del camino
+            # Nodos del camino
             for node_id in [start, end]:
                 node = self.nodes[node_id]
-                self.ax.plot(node['longitude'], node['latitude'], 
-                    'yo', markersize=12, markeredgecolor='red', alpha=1)  # Amarillo con borde rojo
+                if node['is_school']:
+                    # Escuelas en la ruta con estilo especial
+                    self.ax.plot(node['longitude'], node['latitude'], 
+                                'P', color='#e74c3c', markersize=14, 
+                                markeredgecolor='#c0392b', alpha=1, zorder=5)
+                else:
+                    # Nodos intermedios de la ruta
+                    self.ax.plot(node['longitude'], node['latitude'], 
+                                'o', color='#f39c12', markersize=10, 
+                                markeredgecolor='#d35400', alpha=1, zorder=4)
             
-            # Resaltar arista del camino
+            # Aristas del camino
             start_node = self.nodes[start]
             end_node = self.nodes[end]
             self.ax.plot(
                 [start_node['longitude'], end_node['longitude']],
                 [start_node['latitude'], end_node['latitude']],
-                'r-', linewidth=2, alpha=0.8  # Rojo intenso
+                color='#e74c3c', linewidth=3, alpha=0.9, zorder=3,
+                solid_capstyle='round', solid_joinstyle='round'
             )
+        
+        # Flecha indicando dirección (opcional)
+        if len(path_ids) > 1:
+            last_node = self.nodes[path_ids[-1]]
+            self.ax.plot(last_node['longitude'], last_node['latitude'], 
+                        '>', color='#c0392b', markersize=12, alpha=1, zorder=5)
         
         # Configuración final con zoom automático
         self.ax.set_xlim(min_lon, max_lon)
         self.ax.set_ylim(min_lat, max_lat)
+        self.ax.set_title('Ruta Óptima Entre Nodos', pad=20, 
+                        fontdict={'fontsize': 14, 'fontweight': 'bold'})
         self.ax.axis('off')
         plt.tight_layout()
-        
         self.draw()
 
     def find_and_highlight_path(self, start, end):

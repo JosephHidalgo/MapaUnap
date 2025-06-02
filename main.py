@@ -148,7 +148,6 @@ class MainWindow(QMainWindow):
             # Respuesta genérica para mensajes que no son de navegación
             self.chat_widget.add_bot_message(
                 "Hola! Soy tu asistente de navegación universitaria. "
-                "Puedes pedirme rutas entre escuelas profesionales usando lenguaje natural."
             )
 
     def start_llm_processing(self, message):

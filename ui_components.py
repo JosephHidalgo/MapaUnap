@@ -230,13 +230,6 @@ class ChatWidget(QWidget):
         <div style='background: linear-gradient(135deg, #0078d4, #005a9e); 
                    color: white; padding: 15px; border-radius: 10px; margin: 5px 0;'>
             <h3 style='margin: 0; color: white;'>¡Bienvenido al Sistema de Navegación! 🎓</h3>
-            <p style='margin: 5px 0 0 0; color: #e6f3ff;'>
-                Puedes pedirme rutas entre escuelas usando lenguaje natural.<br>
-                <b>Ejemplos:</b><br>
-                • "Quiero ir de Medicina a Ingeniería"<br>
-                • "Cómo llego desde Turismo hasta Educación"<br>
-                • "/ruta 1 5" (comando directo)
-            </p>
         </div>
         """
         self.chat_display.append(welcome_html)
