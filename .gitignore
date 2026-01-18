@@ -1,6 +1,18 @@
+# Carpetas antiguas (frontend original)
 /docs
-__pycache__/
 /resources
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Archivos del proyecto antiguo
 a_estrella.py
 conexiones.txt
 datos.txt
@@ -13,3 +25,33 @@ prueba2.py
 prueba3.py
 escuelas_profesionales.txt
 lector.py
+
+# Entorno virtual
+/venv
+env/
+ENV/
+
+# Variables de entorno (IMPORTANTE: protege las API keys)
+.env
+.env.local
+.env.*.local
+
+# NO ignorar archivos de documentación importantes
+*.md
+!README.md
+!backend/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
