@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Cargar variables de entorno desde la raíz del proyecto
-env_path = BASE_DIR / '.env'
+env_path = BASE_DIR / 'backend' / '.env'
 load_dotenv(dotenv_path=env_path)
 
 # Configuración de OpenAI
