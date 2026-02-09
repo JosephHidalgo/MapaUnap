@@ -25,6 +25,8 @@ class AStarPathfinder:
     
     def load_graph_data(self, file_path: str):
         """Carga los datos del grafo desde el archivo JSON"""
+	print("File-Path: ", file_paht)
+	print(
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
