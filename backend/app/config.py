@@ -6,10 +6,10 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # Ruta base del proyecto
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Cargar variables de entorno desde la raíz del proyecto
-env_path = BASE_DIR / 'backend' / '.env'
+env_path = BASE_DIR / '.env'
 load_dotenv(dotenv_path=env_path)
 
 # Configuración de OpenAI
@@ -17,7 +17,7 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 OPENAI_MODEL = "gpt-4o-mini"
 
 # Configuración de rutas
-GRAPH_DATA_PATH = BASE_DIR / "backend" / "graph_information.json"
+GRAPH_DATA_PATH = BASE_DIR / "graph_information.json"
 
 # Configuración de la API
 API_TITLE = "UNAP Navigation API"
